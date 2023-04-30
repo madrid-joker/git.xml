@@ -1,1 +1,29 @@
-
+<structure>
+   <attribute name="id">
+     <value>1</value>
+   </attribute>
+   <attribute name="Priority">
+     <value>Normal</value>
+   </attribute>
+   <attribute name="Summary">
+          <value>The error message is displayed after clickcing the Confirm button on the Add a movie page</value>
+   </attribute>
+   <attribute name="Pre-conditions">
+          <steps>
+              <value>User is logged in</value>
+              <value>Open the movie category</value>
+          </steps>   
+   </attribute>
+   <attribute name="Steps to reproduced">
+          <steps>
+              <value>Click the Add movie button</value>
+              <value>Fill all mandatory field with valid data</value>
+          </steps>   
+   </attribute>
+   <attribute name="Actual result">
+          <value>The error message is displayed after clickcing the Confirm button on the Add a movie page</value>
+   </attribute>
+   <attribute name="Expected result">
+          <value>The newly movie was added after clickcing the Confirm button on the Add a movie page</value>
+   </attribute>
+</structure>
